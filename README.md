@@ -42,7 +42,7 @@ If you went through the setup steps correctly – the repo is placed in the *app
 Make sure your kinect device is connected and press play on XCode.
 
 ####Run the JS receiver
-Open the *index.html* in a modern browser such as Chrome. 
+Open the *index.html* inside the *JS_receiver* folder in a modern browser such as Chrome. 
 
 **All front end code is contained within this file. This is the file you want to edit to use  Kinect Distance Data in the browser**
 
