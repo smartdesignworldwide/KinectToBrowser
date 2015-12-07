@@ -1,0 +1,3 @@
+ofxKinect
+ofxLibwebsockets
+ofxSpacebrew

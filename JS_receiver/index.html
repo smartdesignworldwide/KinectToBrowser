@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+    <title>Max Thesis Reader</title>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+
+    <script type="text/javascript" src="js/jq.js"></script>
+		<script type="text/javascript" src="js/sb-1.4.1.js"></script>
+    <script type="text/javascript">
+
+		$(window).on("load", setup);
+
+		// Spacebrew Object
+		var sb
+			, app_name = "Kinect Range Receiver"
+			;
+
+		/**
+	     * setup Configure spacebrew connection and adds the mousedown listener.
+	     */
+		function setup (){
+
+			// create spacebrew client object
+			sb = new Spacebrew.Client({reconnect:true});
+
+			// set the base description
+			sb.name(app_name);
+			sb.description("This is receiving a range value from a Kinect");
+			sb.server = "localhost"
+
+			// configure the subscription feed
+			sb.addSubscribe( "Print range to screen", "range" );
+
+			// override Spacebrew events - this is how you catch events coming from Spacebrew
+			sb.onRangeMessage = onRangeMessage;
+			sb.onOpen = onOpen;
+
+			// connect to spacbrew
+			sb.connect();
+		}
+
+		/**
+		 * Function that is called when Spacebrew connection is established
+		 */
+		function onOpen() {
+			var message = "Connected as <strong>" + sb.name() + "</strong>. ";
+			$("#name").html( message );
+		}
+
+		/**
+		 * onRangeMessage Function that is called whenever new spacebrew range messages are received.
+		 * 				  It accepts two parameters:
+		 * @param  {String} name  	Holds name of the subscription feed channel
+		 * @param  {Integer} value 	Holds value received from the subscription feed
+		 */
+		function onRangeMessage(name, value){
+			$("#distance").html(value);
+		};
+
+	</script>
+	</head>
+
+	<body>
+		<div>Reading distance from Kinect</div>
+		<div id="name">Trying to connect</div>
+		<h1 id="distance" style="font-size:120px;"></h1>
+		</br></br>
+	</body>
+
+</html>
