@@ -17,14 +17,17 @@ This code is known to work in Openframeworks 0.9.0 on Mac  OS. Kinect V1 only.
 
 3. Move the ofxSpacebrew and ofxLibwebsockets addons from the OF_addons folder in the repo to the addons folder in the OpenFrameworks structure. Updated / Released versions of these addons may be found in the original repos [here](https://github.com/Spacebrew/ofxSpacebrew) and [here](https://github.com/labatrockwell/ofxLibwebsockets), but the included versions are known to work.
 
-4. Navigate your terminal to the *spacebrew_server* folder in the repo. 
-5. Install dependencies:
+4. If you don't have Node JS installed in your machine, download the installer [from here](https://nodejs.org) and follow install instructions.
+
+5. Navigate your terminal to the *spacebrew_server* folder in the repo. 
+
+6. Install dependencies:
 
 	```
 	npm install
 	```
 
-6. Setup is done!
+7. Setup is done!
 
 ##Running
 ####Set up the spacebrew server locally
