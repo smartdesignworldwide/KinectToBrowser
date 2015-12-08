@@ -1,0 +1,32 @@
+#ignore auth token / keys
+flickr.xml
+
+# osx noise
+.DS_Store
+profile
+
+# xcode noise
+build/*
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+xcuserdata
+DerivedData
+*.app
+
+# Windows
+*/bin/*.dll
+*/bin/*.lib
+*/bin/*.pdb
+*/obj
+*.exe
+*.exp
+*.ilk
+
+# svn & cvs
+.svn
+CVS
