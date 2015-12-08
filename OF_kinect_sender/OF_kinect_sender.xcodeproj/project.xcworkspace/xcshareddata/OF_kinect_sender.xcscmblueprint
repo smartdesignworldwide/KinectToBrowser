@@ -1,44 +1,37 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A87F5187060683BCC075AC8800504E7392A0F2F2",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FF4115A2D5B7DFF42C46C578DDEC91F23A7DBAE4",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "D78AAD1ECEE108F5E6A6CBD62CA24C664DD8926B" : 0,
-    "A87F5187060683BCC075AC8800504E7392A0F2F2" : 0,
-    "EA96A41C62DD9F53B0EEDB57A6879E94EEE00E4B" : 0,
-    "FB950DA91696DB40601A43AFF1A56B2E39217374" : 0
+    "FF4115A2D5B7DFF42C46C578DDEC91F23A7DBAE4" : 0,
+    "FB950DA91696DB40601A43AFF1A56B2E39217374" : 0,
+    "D78AAD1ECEE108F5E6A6CBD62CA24C664DD8926B" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9231E291-7A23-4ACD-81C5-11BCE6FB6F71",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "D78AAD1ECEE108F5E6A6CBD62CA24C664DD8926B" : "..\/..\/addons\/ofxSpacebrew",
-    "A87F5187060683BCC075AC8800504E7392A0F2F2" : "OF_kinect_sender\/",
-    "EA96A41C62DD9F53B0EEDB57A6879E94EEE00E4B" : "",
-    "FB950DA91696DB40601A43AFF1A56B2E39217374" : "..\/..\/addons\/ofxLibwebsockets"
+    "FF4115A2D5B7DFF42C46C578DDEC91F23A7DBAE4" : "KinectToBrowser\/",
+    "FB950DA91696DB40601A43AFF1A56B2E39217374" : "..\/addons\/ofxLibwebsockets",
+    "D78AAD1ECEE108F5E6A6CBD62CA24C664DD8926B" : "..\/addons\/ofxSpacebrew"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "OF_kinect_sender",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OF_kinect_sender.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OF_kinect_sender\/OF_kinect_sender.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bschorr\/maxThesis",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A87F5187060683BCC075AC8800504E7392A0F2F2"
-    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Spacebrew\/ofxSpacebrew\/",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D78AAD1ECEE108F5E6A6CBD62CA24C664DD8926B"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bschorr\/KinectToBrowser",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EA96A41C62DD9F53B0EEDB57A6879E94EEE00E4B"
-    },
-    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/labatrockwell\/ofxLibwebsockets",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FB950DA91696DB40601A43AFF1A56B2E39217374"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/smartdesignworldwide\/KinectToBrowser",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FF4115A2D5B7DFF42C46C578DDEC91F23A7DBAE4"
     }
   ]
 }
